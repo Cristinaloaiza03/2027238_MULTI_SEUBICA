@@ -248,7 +248,7 @@ div .raya {
     font-size: 4em;
     color: #f77116;
     margin-left: 50px;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
@@ -547,9 +547,18 @@ padding: 1em;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(8,1fr);
-    background-image: url(img/ruta.png);
+    background-image: url(img/Plano\ CTGI.png);
     /* background-repeat: no-repeat; */
     background-size: cover;
+}
+
+.content10 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(8,1fr);
+  background-image: url(img/Plano\ CTGI2.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
 }
 
 .ctgi {
